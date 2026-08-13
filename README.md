@@ -16,6 +16,7 @@ The assignment explicitly permits **Option B: PySpark + Delta Lake (local or Dat
 │   ├── data
 │   ├── dq_reconciliation
 │   ├── gold_reconciled_transactions
+│   ├── visual_screenshots
 ├── Payments_Reconciliation.ipynb
 ├── README.md
 ```
