@@ -1,0 +1,16 @@
+txn_id,transaction_amount,settled_amount,difference,reconciliation_status,upi_response_code,upi_error_message,channel,settlement_date,MESSAGE_ARRIVAL_TIMESTAMP,t_plus_1_deadline,is_t_plus_1_missing
+TXN001,1250,1249,1,matched,00,null,upi,2026-07-06,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN002,3499.5,3498.5,1,matched,00,null,card,2026-07-06,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN003,750,null,null,missing_in_settlement,05,Insufficient funds,upi,null,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN004,12000,11995,5,mismatch,null,null,imps,2026-07-06,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN005,299,299,0,matched,00,null,upi,2026-07-06,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN006,5600.75,5599.75,1,matched,null,null,card,2026-07-06,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN007,1890.25,1889.25,1,matched,00,null,upi,2026-07-06,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN008,999,999,0,matched,99,Timeout at issuer,upi,2026-07-06,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN009,4500,null,null,missing_in_settlement,05,Insufficient funds,imps,null,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN010,15999,15990,9,mismatch,null,null,card,2026-07-06,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN011,899.5,899.5,0,matched,00,null,upi,2026-07-06,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN012,2250,2248,2,mismatch,null,null,card,2026-07-06,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN013,675.25,675.25,0,matched,00,null,upi,2026-07-06,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN014,3200,null,null,missing_in_settlement,null,null,imps,null,2026-08-13T13:24:46.192Z,2026-08-14,false
+TXN015,1100,1098,2,mismatch,00,null,upi,2026-07-06,2026-08-13T13:24:46.192Z,2026-08-14,false
